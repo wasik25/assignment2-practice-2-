@@ -1,0 +1,29 @@
+.cart-container {
+    width: 50%;
+    box-shadow: 4px 4px 8px gray;
+    margin: auto;
+    text-align: center;
+}
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.card {
+    border: 1px solid gray;
+    padding: 10px;
+    cursor: pointer;
+}
+.card-img {
+    width: 150px;
+}
+.modal-img {
+    max-width: 100%;  
+    height: auto;    
+    width: 300px;    
+    margin: 0 auto;   
+}
